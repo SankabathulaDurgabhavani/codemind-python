@@ -1,6 +1,6 @@
 n=int(input())
-p=n*n
 s=0
+p=n*n
 while(p!=0):
     r=p%10
     s=s+r
