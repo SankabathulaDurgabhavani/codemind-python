@@ -1,8 +1,8 @@
 n=int(input())
-l=list(map(int,input().split()))
+s=list(map(int,input().split()))
 a,b=map(int,input().split())
-c=0
-for i in l:
-    if i<a or i>b:
-        c+=i
-print(c)
+e=[]
+for i in range(0,n):
+    if a>s[i] or b<s[i]:
+        e.append(s[i])
+print(sum(e))
